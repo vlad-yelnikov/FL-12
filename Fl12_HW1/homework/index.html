@@ -17,13 +17,13 @@
               <h1>HTML Elements</h1>
               <hr>
               <nav>
-                <a href="#Home">Home</a>
-                <a href="#Headings">Headings</a>
-                <a href="#Text formats">Text formats</a>
-                <a href="#Types of lists">Types of lists</a>
-                <a href="#Table">Table</a>
-                <a href="#Blockquotes">Blockquotes</a>
-                <a href="#Registration">Registration</a>
+                <a href="#Home"><b>Home</b></a>
+                <a href="#Headings"><b>Headings</b></a>
+                <a href="#TextFormats"><b>Text formats</b></a>
+                <a href="#TypesOfLists"><b>Types of lists</b></a>
+                <a href="#Table"><b>Table</b></a>
+                <a href="#Blockquotes"><b>Blockquotes</b></a>
+                <a href="#Registration"><b>Registration</b></a>
               </nav>
               <hr>
           </header>
@@ -72,7 +72,7 @@
             <h6>Heading 6</h6>
           </div>
           <hr>
-          <div id="Text formats">
+          <div id="TextFormats">
             <h2>Text formats</h2>
             <h3>Article</h3>
             <article>
@@ -91,7 +91,7 @@ Text in a <b>pre</b> element<br>is displayed in a fixed-width<br>font, and it pr
             
             </pre>
           </div>
-          <div id="Types of lists">
+          <div id="TypesOfLists">
             <h2>Unordered Wish List</h2>
             <ul>
               <li>
@@ -131,16 +131,77 @@ Text in a <b>pre</b> element<br>is displayed in a fixed-width<br>font, and it pr
               <dt>JavaScript</dt>
               <dd>JavaScript is a scripting languages, primarily used on the Web.</dd>
             </dl>
-            <span>Select Your Beverage</span>
+            <span>Select for learning</span>
             <select name="select">
               <option value="HTML">HTML</option>
               <option value="CSS">CSS</option>
               <option value="JavaScript" selected>JS</option>
             </select>
-            <hr>
-            <hr>
           </div>
+          <hr>
+          <hr>
+          <div id="Table">
+            <h2>Table</h2>
+            <table>
+              <thead>
+                <tr>
+                  <th>Skill</th>
+                  <th>Training</th>
+                  <th>City</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>JAVA</td>
+                  <td>JAVA development training</td>
+                  <td>Lviv</td>
+                </tr>
+                <tr>
+                  <td>JAVASCRIPT</td>
+                  <td>FRONT-END development</td>
+                  <td>Kharkiv</td>
+                </tr>
+                <tr>
+                  <td>IOS</td>
+                  <td>IOS winter 2019</td>
+                  <td>Kyiv</td>
+                </tr>
+                <tr>
+                  <td>DEVOPS</td>
+                  <td>DEVOPS spring 2020</td>
+                  <td>Dnipro</td>
+                </tr>
+              </tbody>
+            </table>
           </div>
+          <div id="Blockquotes">
+            <h2>Blockquotes</h2>
+            <h4>
+              Let’s keep it simple. Italics are good to help set it off from the body text. Be sure to style the
+              citation.
+            </h4>
+            <blockquote>
+              "So if you want to go fast, if you want to get done quickly, if you want your code to be easy to write,
+              make it easy to read."<br>
+              <a href="https://en.wikipedia.org/wiki/Robert_C._Martin" target="blank">Robert C. Martin (Uncle Bob)</a>
+            </blockquote>
+          </div>
+          <hr>
+          <div id="Registration">
+            <form>
+              <label for="userName">Username:</label>
+              <input type="text" id="userName"><br>
+              <label for="email">Email:</label>
+              <input type="email" id="email"><br>
+              <label for="password">Password:</label>
+              <input type="password" id="password"><br>
+              <textarea cols="23" rows="4"></textarea><br>
+              <button type="submit">Submit</button>
+            </form>
+          </div>
+          <footer>
+            <span>&copy; Copyright Epam Systems</span>
+          </footer>
         </div>
       </div>
     </div>
